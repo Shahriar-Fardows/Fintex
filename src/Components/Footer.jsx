@@ -6,7 +6,7 @@ function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold mb-4 text-blue-400">Your Company</h3>
+            <h3 className="text-2xl font-bold mb-4 text-blue-400">Fintex</h3>
             <p className="text-gray-300">We are dedicated to providing innovative financial solutions for our users.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
