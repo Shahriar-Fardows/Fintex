@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+import aveter from '../assets/aveter.jpg';
 const Testimonial = ({ name, role, company, quote, image }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
@@ -41,21 +41,21 @@ const TestimonialSection = () => {
       role: "CFO",
       company: "TechCorp",
       quote: "This investment platform has revolutionized our company's financial strategy. The insights provided are invaluable.",
-      image: "/placeholder.svg?height=200&width=200",
+      image: aveter,
     },
     {
       name: "Michael Chen",
       role: "Entrepreneur",
       company: "StartUp Inc.",
       quote: "As a first-time investor, I found this platform incredibly user-friendly and educational. It's helped me grow my portfolio significantly.",
-      image: "/placeholder.svg?height=200&width=200",
+      image: aveter,
     },
     {
       name: "Emily Rodriguez",
       role: "Financial Advisor",
       company: "WealthWise",
       quote: "I recommend this platform to all my clients. The range of investment options and the analytical tools are top-notch.",
-      image: "/placeholder.svg?height=200&width=200",
+      image: aveter,
     },
   ];
 
